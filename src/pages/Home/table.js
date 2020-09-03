@@ -15,7 +15,7 @@ const columns = [
     label: 'Cep',
     minWidth: 120,
     align: 'left',
-    format: (value) => value.toLocaleString('en-US'),
+    format: (value) => value.toLocaleString('pt-BR'),
   },
   { id: 'bairro', label: 'Bairro', minWidth: 100, align: 'left' },
   { id: 'cidade', label: 'Cidade', minWidth: 170, align: 'left' },
@@ -35,6 +35,12 @@ const rows = [
   createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
   createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
   createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
+  createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
+  createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
+  createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
+  createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
+  createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
+  createData(26525340, 'Centro', 'Nilópolis', 'Rio de Janeiro'),
 ];
 
 const useStyles = makeStyles({
@@ -42,7 +48,7 @@ const useStyles = makeStyles({
     width: '100%',
   },
   container: {
-    maxHeight: 440,
+    maxHeight: 640,
   },
 });
 
