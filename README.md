@@ -1,3 +1,20 @@
+
+
+
+<p align="center"><img src="https://github.com/thiagotcs/trade/blob/master/src/assets/github/trade-git.png"></p>
+
+<p align = "center">
+    <img src = "https://img.shields.io/badge/Site-CompassoUol-red" alt= "Site">
+    <img src = "https://img.shields.io/badge/License-MIT-blue.svg" alt = "Licença MIT">
+    <img src = "https://img.shields.io/badge/Layout%20preview-Figma-brightgreen" alt = "Figma-brightgreen">
+    <img src = "https://img.shields.io/badge/Made%20by-Thiago%20Carvalho-orange" alt = "Thiago Carvalho">
+       <img src = "https://img.shields.io/badge/Project%20Lang-Portugueses%20BR-green" alt = "Project Lang">
+
+
+  </a>
+</p>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -37,32 +54,64 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## :computer: Sobre o projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Projeto desenvolvido para conhecer melhor as habilidades técnicas reforçar as bases do desenvolvimento front-end, principalmente com HTML, CSS e Javascript.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Foi de grande valor ter essa experiência, desafios é desenvolver page de login e page home.
 
-### Code Splitting
+## 📺 Preview
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<img src="https://github.com/thiagotcs/trade/blob/master/src/assets/github/trade-home.PNG"> <img src="https://github.com/thiagotcs/trade/blob/master/src/assets/github/trade-login.PNG"  width="300" height="600">
 
-### Analyzing the Bundle Size
+## ⚙️ Funcionalidades
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- [ ] Autenticação na plataforma preenchendo com seus dados no formulário:
 
-### Making a Progressive Web App
+  - [x] Login de Usuário
+  - [x] Senha
+  - [x] validação dos campos login e senha
+  - [x] Mensagem de erro para usuário
+  - [x] pesquisar por cep
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## 🚀 Como executar o projeto
 
-### Advanced Configuration
+<p>
+Este projeto consiste em três partes:
+</p>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+1. Desenvolvimento do Frontend das telas Login e Home
+2. Validação do formulário de aesso
+3. Design Responsivo
 
-### Deployment
+### Getting started
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<p>
+Feito isso, basta executar o procedimento de rodar o projeto, fazer login 🔍
+</p>
 
-### `yarn build` fails to minify
+## 🛠 Tecnologias
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<p>
+As seguintes ferramentas foram usadas na construção do projeto:
+</p>
+<p>
+Front-end: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> CSS </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"> JS </a> | <a href="https://pt-br.reactjs.org/"> REACT </a>
+</p>
+
+#### Utilitários
+
+- Editor: <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+- Layout: <a href="https://www.figma.com/">Figma<a/> | <a href="https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1">Login CompassoUol</a>
+- Markdown: <a href="https://www.emojicopy.com/">Emojicopy</a> | <a href="https://gist.github.com/rxaviers/7360908">Markdown Emoji</a>
+- Badges: <a href="https://shields.io/">Shields</a>
+
+## <p align = "center"> 🚀 <a href="#" target="_blank">Site publicado</a></p>
+
+## 📝 Licença
+
+Este projeto está licenciado sob a Licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
+
+<p align = "center">
+Feito com ❤️ por Thiago Carvalho 👋 Entre em <a href="https://www.linkedin.com/in/thiagocarvalhofrontend/">contato</a> 👨‍💻
+</p>
