@@ -4,12 +4,11 @@
 <p align="center"><img src="https://github.com/thiagotcs/trade/blob/master/src/assets/github/trade-git.png"></p>
 
 <p align = "center">
-    <img src = "https://img.shields.io/badge/Site-CompassoUol-red" alt= "Site">
-    <img src = "https://img.shields.io/badge/License-MIT-blue.svg" alt = "Licença MIT">
-    <img src = "https://img.shields.io/badge/Layout%20preview-Figma-brightgreen" alt = "Figma-brightgreen">
     <img src = "https://img.shields.io/badge/Made%20by-Thiago%20Carvalho-orange" alt = "Thiago Carvalho">
-       <img src = "https://img.shields.io/badge/Project%20Lang-Portugueses%20BR-green" alt = "Project Lang">
-
+    <img src = "https://img.shields.io/badge/SITE-TRADE-blue" alt= "Site">
+    <img src = "https://img.shields.io/badge/Layout%20preview-Figma-brightgreen" alt = "Figma-brightgreen">
+    <img src = "https://img.shields.io/badge/License-MIT-blue.svg" alt = "Licença MIT">
+    <img src = "https://img.shields.io/badge/Project%20Lang-Portugueses%20BR-green" alt = "Project Lang">
 
   </a>
 </p>
@@ -23,7 +22,7 @@ Foi de grande valor ter essa experiência, desafios é desenvolver page de login
 
 
 
-## Available Scripts
+## 📝 Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
