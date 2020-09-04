@@ -15,9 +15,17 @@
 </p>
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :computer: Sobre o projeto
+
+Projeto desenvolvido para conhecer melhor as habilidades técnicas reforçar as bases do desenvolvimento front-end, principalmente com HTML, CSS e Javascript.
+
+Foi de grande valor ter essa experiência, desafios é desenvolver page de login e page home.
+
+
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
@@ -54,11 +62,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## :computer: Sobre o projeto
-
-Projeto desenvolvido para conhecer melhor as habilidades técnicas reforçar as bases do desenvolvimento front-end, principalmente com HTML, CSS e Javascript.
-
-Foi de grande valor ter essa experiência, desafios é desenvolver page de login e page home.
 
 ## 📺 Preview
 
