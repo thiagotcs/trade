@@ -76,6 +76,17 @@ export default function SignUp() {
             id="password"
             autoComplete="current-password"
           />
+          <TextField
+            variant="outlined"
+            margin="normal"
+            required
+            fullWidth
+            name="confPassword"
+            label="Confirme sua senha"
+            type="confPassword"
+            id="confPassword"
+            autoComplete="current-password"
+          />
 
           <Button
             type="submit"
