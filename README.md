@@ -107,7 +107,10 @@ Feito isso, basta executar o procedimento de rodar o projeto, fazer login 🔍
 As seguintes ferramentas foram usadas na construção do projeto:
 </p>
 <p>
-Front-end: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> CSS </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"> JS </a> | <a href="https://pt-br.reactjs.org/"> REACT </a>
+Front-end: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> CSS </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"> JS </a> | <a href="https://pt-br.reactjs.org/"> REACT </a> | <a href="https://material-ui.com/pt/"> MATERIAL-UI </a>
+</p>
+<p>
+Back-end: <a href="https://nodejs.org/en/docs/"> NODEJS </a> | <a href="https://yarnpkg.com/"> YARN </a> | <a href="https://expressjs.com/"> Express.JS </a>
 </p>
 
 #### Utilitários
