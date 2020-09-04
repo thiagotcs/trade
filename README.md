@@ -16,10 +16,9 @@
 
 ## :computer: Sobre o projeto
 
-Projeto desenvolvido para conhecer melhor as habilidades técnicas reforçar as bases do desenvolvimento front-end, principalmente com HTML, CSS e Javascript.
+Projeto desenvolvido para conhecer melhor as habilidades técnicas reforçar as bases do desenvolvimento front-end, principalmente com HTML, CSS, Javascript e React. No Back-end desenvolvido com NodeJS
 
-Foi de grande valor ter essa experiência, desafios é desenvolver page de login e page home.
-
+Foi de grande valor ter essa experiência, desafios é desenvolver um validador de CEPs, criando as page de login e page home, realizar autenticação de usuário para adicionar novo CEP.
 
 
 ## 📝 Available Scripts
@@ -75,6 +74,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
   - [x] validação dos campos login e senha
   - [x] Mensagem de erro para usuário
   - [x] pesquisar por cep
+  
+- [ ] Pesquisar na plataforma CEPs já existente ou fazer novos cadastros:
+
+  - [x] pesquisar por cep
+  - [x] pesquisar por cidade
+  - [x] validação dos campos
+  - [x] Mensagem de erro para usuário
+  - [x] Cadastrar novo CEP
+
+
 
 ## 🚀 Como executar o projeto
 
@@ -104,7 +113,7 @@ Front-end: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML </a
 #### Utilitários
 
 - Editor: <a href="https://code.visualstudio.com/">Visual Studio Code</a>
-- Layout: <a href="https://www.figma.com/">Figma<a/> | <a href="https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1">Login CompassoUol</a>
+- Layout: <a href="https://www.figma.com/">Figma<a/> 
 - Markdown: <a href="https://www.emojicopy.com/">Emojicopy</a> | <a href="https://gist.github.com/rxaviers/7360908">Markdown Emoji</a>
 - Badges: <a href="https://shields.io/">Shields</a>
 
