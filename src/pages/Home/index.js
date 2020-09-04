@@ -22,6 +22,7 @@ export default function Home() {
     <Container maxWidth="xl">
       <CssBaseline />
       <h1>Ceps Cadastrados</h1>
+      <Modal />
 
       <form className={classes.root} noValidate autoComplete="off">
         <Input
@@ -29,17 +30,6 @@ export default function Home() {
           inputProps={{ 'aria-label': 'description' }}
           style={{ width: '20rem' }}
         />
-        <Modal />
-        {/* <Button
-          variant="contained"
-          color="primary"
-          size="small"
-          className={classes.button}
-          startIcon={<AddBoxIcon />}
-          style={{ float: 'right' }}
-        >
-          Novo CEP
-        </Button> */}
       </form>
       <Table />
     </Container>

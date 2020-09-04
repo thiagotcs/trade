@@ -5,6 +5,8 @@ import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import Button from '@material-ui/core/Button';
 import AddBoxIcon from '@material-ui/icons/AddBox';
+import SaveIcon from '@material-ui/icons/Save';
+import CancelPresentationIcon from '@material-ui/icons/CancelPresentation';
 import Input from '@material-ui/core/Input';
 
 const useStyles = makeStyles((theme) => ({
@@ -38,7 +40,6 @@ export default function TransitionsModal() {
       <Button
         variant="contained"
         color="primary"
-        size="small"
         className={classes.button}
         startIcon={<AddBoxIcon />}
         style={{ float: 'right' }}
@@ -92,6 +93,24 @@ export default function TransitionsModal() {
                     style={{ width: '20rem' }}
                   />
                 </p>
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  className={classes.button}
+                  startIcon={<CancelPresentationIcon />}
+                >
+                  Cancelar
+                </Button>
+
+                <Button
+                  variant="contained"
+                  color="primary"
+                  className={classes.button}
+                  startIcon={<SaveIcon />}
+                  style={{ float: 'right', width: '9rem' }}
+                >
+                  Salvar
+                </Button>
               </form>
             </p>
           </div>
