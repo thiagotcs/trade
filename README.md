@@ -1,6 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+
+<p align="center"><img src="https://github.com/thiagotcs/trade/blob/master/src/assets/github/trade-git.png"></p>
+
+<p align = "center">
+    <img src = "https://img.shields.io/badge/Made%20by-Thiago%20Carvalho-orange" alt = "Thiago Carvalho">
+    <img src = "https://img.shields.io/badge/SITE-TRADE-blue" alt= "Site">
+    <img src = "https://img.shields.io/badge/Layout%20preview-Figma-brightgreen" alt = "Figma-brightgreen">
+    <img src = "https://img.shields.io/badge/License-MIT-blue.svg" alt = "Licença MIT">
+    <img src = "https://img.shields.io/badge/Project%20Lang-Portugueses%20BR-green" alt = "Project Lang">
+
+  </a>
+</p>
+
+
+## :computer: Sobre o projeto
+
+Projeto desenvolvido para conhecer melhor as habilidades técnicas reforçar as bases do desenvolvimento front-end, principalmente com HTML, CSS, Javascript e React. No Back-end desenvolvido com NodeJS
+
+Foi de grande valor ter essa experiência, desafios é desenvolver um validador de CEPs, criando as page de login e page home, realizar autenticação de usuário para adicionar novo CEP.
+
+
+## 📝 Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
@@ -37,32 +60,72 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📺 Preview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="https://github.com/thiagotcs/trade/blob/master/src/assets/github/trade-home.PNG"> <img src="https://github.com/thiagotcs/trade/blob/master/src/assets/github/trade-login.PNG"  width="300" height="600">
 
-### Code Splitting
+## ⚙️ Funcionalidades
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- [ ] Autenticação na plataforma preenchendo com seus dados no formulário:
 
-### Analyzing the Bundle Size
+  - [x] Login de Usuário
+  - [x] Senha
+  - [x] validação dos campos login e senha
+  - [x] Mensagem de erro para usuário
+  - [x] pesquisar por cep
+  
+- [ ] Pesquisar na plataforma CEPs já existente ou fazer novos cadastros:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+  - [x] pesquisar por cep
+  - [x] pesquisar por cidade
+  - [x] validação dos campos
+  - [x] Mensagem de erro para usuário
+  - [x] Cadastrar novo CEP
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+## 🚀 Como executar o projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<p>
+Este projeto consiste em três partes:
+</p>
 
-### Deployment
+1. Desenvolvimento do Frontend das telas Login e Home
+2. Validação do formulário de aesso
+3. Design Responsivo
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Getting started
 
-### `yarn build` fails to minify
+<p>
+Feito isso, basta executar o procedimento de rodar o projeto, fazer login 🔍
+</p>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 🛠 Tecnologias
+
+<p>
+As seguintes ferramentas foram usadas na construção do projeto:
+</p>
+<p>
+Front-end: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> CSS </a> | <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"> JS </a> | <a href="https://pt-br.reactjs.org/"> REACT </a> | <a href="https://material-ui.com/pt/"> MATERIAL-UI </a>
+</p>
+<p>
+Back-end: <a href="https://nodejs.org/en/docs/"> NODEJS </a> | <a href="https://yarnpkg.com/"> YARN </a> | <a href="https://expressjs.com/"> Express.JS </a>
+</p>
+
+#### Utilitários
+
+- Editor: <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+- Layout: <a href="https://www.figma.com/">Figma<a/> 
+- Markdown: <a href="https://www.emojicopy.com/">Emojicopy</a> | <a href="https://gist.github.com/rxaviers/7360908">Markdown Emoji</a>
+- Badges: <a href="https://shields.io/">Shields</a>
+
+## <p align = "center"> 🚀 <a href="#" target="_blank">Site publicado</a></p>
+
+## 📝 Licença
+
+Este projeto está licenciado sob a Licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
+
+<p align = "center">
+Feito com ❤️ por Thiago Carvalho 👋 Entre em <a href="https://www.linkedin.com/in/thiagocarvalhofrontend/">contato</a> 👨‍💻
+</p>
