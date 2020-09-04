@@ -3,12 +3,8 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
-import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import HowToRegIcon from '@material-ui/icons/HowToReg';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -41,12 +37,23 @@ export default function SignUp() {
       <CssBaseline />
       <div className={classes.paper}>
         <Avatar className={classes.avatar}>
-          <LockOutlinedIcon />
+          <HowToRegIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Área Restrita
+          Cadastrar grátis
         </Typography>
         <form className={classes.form} noValidate>
+          <TextField
+            variant="outlined"
+            margin="normal"
+            required
+            fullWidth
+            id="name"
+            label="Informe seu nome"
+            name="name"
+            autoComplete="name"
+            autoFocus
+          />
           <TextField
             variant="outlined"
             margin="normal"
@@ -69,10 +76,7 @@ export default function SignUp() {
             id="password"
             autoComplete="current-password"
           />
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Lembre-me"
-          />
+
           <Button
             type="submit"
             fullWidth
@@ -80,15 +84,8 @@ export default function SignUp() {
             color="primary"
             className={classes.submit}
           >
-            Acessar
+            Cadastrar
           </Button>
-          <Grid container>
-            <Grid item>
-              <Link href="#" variant="body2">
-                {'Não tem conta? Inscreva-se'}
-              </Link>
-            </Grid>
-          </Grid>
         </form>
       </div>
       <Box mt={8}></Box>
