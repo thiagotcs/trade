@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -8,6 +9,8 @@ import HowToRegIcon from '@material-ui/icons/HowToReg';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+
+import api from '../../services/api';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -30,7 +33,24 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function SignUp() {
+  const [values, setValues] = useState({});
+  const history = useHistory();
   const classes = useStyles();
+
+  const handleChange = (e) => {
+    setValues({ ...values, [e.target.id]: e.target.value });
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const teste = await api.post("/api/auth/signup", values);
+      history.push('/');
+      console.log("cadastro>>>>", teste);
+    } catch (error) {
+      alert(error);
+    }
+  }
 
   return (
     <Container component="main" maxWidth="xs">
@@ -42,14 +62,15 @@ export default function SignUp() {
         <Typography component="h1" variant="h5">
           Cadastrar grátis
         </Typography>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} onSubmit={handleSubmit} noValidate>
           <TextField
             variant="outlined"
             margin="normal"
             required
             fullWidth
-            id="name"
-            label="Informe seu nome"
+            id="username"
+            onChange={handleChange}
+            label="Informe seu usuário"
             name="name"
             autoComplete="name"
             autoFocus
@@ -57,6 +78,7 @@ export default function SignUp() {
           <TextField
             variant="outlined"
             margin="normal"
+            onChange={handleChange}
             required
             fullWidth
             id="email"
@@ -68,23 +90,13 @@ export default function SignUp() {
           <TextField
             variant="outlined"
             margin="normal"
+            onChange={handleChange}
             required
             fullWidth
             name="password"
             label="Informe sua senha"
             type="password"
             id="password"
-            autoComplete="current-password"
-          />
-          <TextField
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            name="confPassword"
-            label="Confirme sua senha"
-            type="confPassword"
-            id="confPassword"
             autoComplete="current-password"
           />
 
@@ -94,6 +106,7 @@ export default function SignUp() {
             variant="contained"
             color="primary"
             className={classes.submit}
+            disabled={!values.email || !values.password || !values.username}
           >
             Cadastrar
           </Button>

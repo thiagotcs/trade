@@ -24,7 +24,6 @@ const Routes = () => (
     <Switch>
       <Route exact path="/" component={SignIn} />
       <Route path="/signup" component={SignUp} />
-      <Route path="/home" component={Home} />
       <PrivateRoute path="/home" component={Home} />
       <Route path="*" component={() => <h1>Page not found</h1>} />
     </Switch>
