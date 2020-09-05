@@ -120,8 +120,6 @@ Back-end: <a href="https://nodejs.org/en/docs/"> NODEJS </a> | <a href="https://
 - Markdown: <a href="https://www.emojicopy.com/">Emojicopy</a> | <a href="https://gist.github.com/rxaviers/7360908">Markdown Emoji</a>
 - Badges: <a href="https://shields.io/">Shields</a>
 
-## <p align = "center"> 🚀 <a href="#" target="_blank">Site publicado</a></p>
-
 ## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
