@@ -8,29 +8,12 @@ import Input from '@material-ui/core/Input';
 import Table from './table';
 import Modal from './modal';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& > *': {
-      margin: theme.spacing(1),
-    },
-  },
-}));
-
 export default function Home() {
-  const classes = useStyles();
   return (
     <Container maxWidth="xl">
       <CssBaseline />
       <h1>Ceps Cadastrados</h1>
       <Modal />
-
-      <form className={classes.root} noValidate autoComplete="off">
-        <Input
-          placeholder="Busque por Cidade ou Cep cadastrado."
-          inputProps={{ 'aria-label': 'description' }}
-          style={{ width: '20rem' }}
-        />
-      </form>
       <Table />
     </Container>
   );

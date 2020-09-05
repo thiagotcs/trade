@@ -44,9 +44,8 @@ export default function SignUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const teste = await api.post("/api/auth/signup", values);
+      await api.post("/api/auth/signup", values);
       history.push('/');
-      console.log("cadastro>>>>", teste);
     } catch (error) {
       alert(error);
     }
